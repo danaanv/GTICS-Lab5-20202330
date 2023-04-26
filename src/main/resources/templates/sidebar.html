@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/extras/spring-security">
+
+<nav th:fragment="sideBar" style="background: whitesmoke">
+  <div class="row">
+    <div class="col-sm-6">
+      <img class="mr-2" th:src="@{/travel_trip_logo.png}" width="100"/>
+    </div>
+    <div class="col-sm-6">
+      <div class="btn-group btn-group-lg" role="group" aria-label="Large button group">
+        <button type="button" class="btn btn-outline-primary">Empleados</button>
+        <button type="button" class="btn btn-outline-primary">Historial</button>
+        <button type="button" class="btn btn-outline-primary">Reportes</button>
+      </div>
+    </div>
+  </div>
+</nav>
